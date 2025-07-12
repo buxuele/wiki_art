@@ -1,0 +1,23 @@
+# 文件夹
+.idea/
+wiki_venv/
+
+# 一些关键文件！！
+*.json
+*.bak
+.env
+
+scrapy_wiki_art/wiki_imgs/full/
+scrapy_wiki_art/.scrapy/
+scrapy_wiki_art/artworks.jsonl
+scrapy_wiki_art/my_files.txt
+
+
+*.pyc
+*.pyw
+*.bat
+
+start_repo.py
+gg.bat
+
+
