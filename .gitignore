@@ -7,11 +7,15 @@ wiki_venv/
 *.bak
 .env
 
-scrapy_wiki_art/wiki_imgs/full/
-scrapy_wiki_art/.scrapy/
-scrapy_wiki_art/artworks.jsonl
-scrapy_wiki_art/my_files.txt
+1_scrapy_spider_wiki_art/wiki_imgs/full/
+1_scrapy_spider_wiki_art/.scrapy/
+1_scrapy_spider_wiki_art/artworks.jsonl
+1_scrapy_spider_wiki_art/my_files.txt
 
+
+3_build_model/data/
+3_build_model/*.pth
+3_build_model/*.png
 
 *.pyc
 *.pyw

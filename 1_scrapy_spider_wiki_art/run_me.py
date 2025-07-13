@@ -6,12 +6,11 @@ from scrapy.utils.project import get_project_settings
 def run_spider():
 
     # 确保 入口 url 是有效的！！！
-    # start_url = "https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_April_-_(The_Green_Gown)_-_Google_Art_Project.jpg"
-
-    start_url = "https://commons.wikimedia.org/wiki/File:John_Roddam_Spencer_Stanhope_Penelope.jpg"
+    # fish
+    start_url = "https://commons.wikimedia.org/wiki/File:L%C3%A1brido_tablero_a_cuadros_(Halichoeres_hortulanus),_mar_Rojo,_Egipto,_2023-04-19,_DD_43.jpg"
 
     # 如果存在旧的输出文件，先删除它，以便每次运行都是全新的开始
-    output_file = 'artworks2.jsonl'
+    output_file = 'new_artworks.jsonl'
 
     if os.path.exists(output_file):
         os.remove(output_file)

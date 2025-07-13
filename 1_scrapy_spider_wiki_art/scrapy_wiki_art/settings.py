@@ -29,10 +29,10 @@ FEEDS = {
 # --- 新增和修改的配置 ---
 
 # 1. 设置爬取深度限制
-DEPTH_LIMIT = 3
+DEPTH_LIMIT = 2
 
-# 2. 设置爬取 Item 数量限制，爬取到500个Item后自动停止
-CLOSESPIDER_ITEMCOUNT = 2000
+# 2. 设置爬取 Item 数量限制
+CLOSESPIDER_ITEMCOUNT = 500
 
 # 3. 配置 Item Pipelines，启用图片管道
 ITEM_PIPELINES = {
@@ -40,10 +40,7 @@ ITEM_PIPELINES = {
 }
 
 # 4. 设置图片下载目录
-IMAGES_STORE = r'C:\Users\Administrator\Work\wiki_art_imgs'
-
-# The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 16
+IMAGES_STORE = r'C:\Users\Administrator\Work\wiki_fish_imgs'
 
 
 # Override the default request headers:

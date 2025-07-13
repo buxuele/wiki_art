@@ -9,7 +9,6 @@ class ArtSpiderSpider(scrapy.Spider):
 
     allowed_domains = []  # 'commons.wikimedia.org', 'upload.wikimedia.org'
 
-
     # 告诉爬虫，404错误我们也可以自己处理，不要直接忽略
     handle_httpstatus_list = [404]
 
@@ -18,8 +17,8 @@ class ArtSpiderSpider(scrapy.Spider):
         if start_url:
             self.start_urls = [start_url]
         else:
-            self.start_urls = [
-                'https://commons.wikimedia.org/wiki/File:Childe_Hassam_-_April_-_(The_Green_Gown)_-_Google_Art_Project.jpg']
+            self.start_urls = []
+
 
     def clean_text(self, text_list):
         """一个辅助函数，用来清理提取出的文本列表"""
